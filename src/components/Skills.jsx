@@ -82,13 +82,9 @@ export default function Skills() {
                 <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 to-cyan-500/10 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity"></div>
 
                 <div className="relative z-10">
-                  <motion.div
-                    className="text-4xl text-blue-400 mb-4"
-                    whileHover={{ rotate: 360 }}
-                    transition={{ duration: 0.6 }}
-                  >
+                  <div className="text-4xl text-blue-400 mb-4">
                     <Icon />
-                  </motion.div>
+                  </div>
 
                   <h3 className="text-xl font-bold mb-4 text-white group-hover:text-blue-400 transition-colors">
                     {skill.category}
@@ -96,13 +92,12 @@ export default function Skills() {
 
                   <div className="flex flex-wrap gap-2">
                     {skill.skills.map((s, i) => (
-                      <motion.span
+                      <span
                         key={i}
                         className="px-3 py-1 bg-blue-500/20 text-blue-300 rounded-full text-sm border border-blue-400/30 hover:bg-blue-500/40 transition-colors"
-                        whileHover={{ scale: 1.1 }}
                       >
                         {s}
-                      </motion.span>
+                      </span>
                     ))}
                   </div>
                 </div>

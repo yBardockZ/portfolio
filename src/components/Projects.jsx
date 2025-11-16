@@ -8,7 +8,6 @@ export default function Projects() {
       description: 'Blog web completo desenvolvido com PHP, Laravel e MySQL. Sistema de gerenciamento de conteúdo com autenticação, comentários e categorização de posts.',
       technologies: ['PHP', 'Laravel', 'Blade', 'MySQL', 'Boostrap5'],
       features: ['CRUD', 'Sistema de Autenticação', 'Gerenciamento de Posts', 'Responsivo'],
-      link: 'https://movimentofuturo.org',
       github: 'https://github.com/yBardockZ/Blog-MM',
     },
     {

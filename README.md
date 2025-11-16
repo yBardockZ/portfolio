@@ -1,4 +1,4 @@
-# 🎨 Portfólio de Thalles da Rocha Leopoldino
+# 🎨 Portfólio Pessoal
 
 Um portfólio moderno, responsivo e com animações, desenvolvido com React, Tailwind CSS e Framer Motion para exibir meus projetos e habilidades como desenvolvedor full-stack.
 
